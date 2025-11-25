@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NASA APOD Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>NASA APOD Explorer</h1>
+
+  <div class="section">
+    <h2>Today's Astronomy Picture</h2>
+    <div id="today"></div>
+  </div>
+
+  <div class="section">
+    <h2>Select Date</h2>
+    <input type="date" id="apod-date">
+    <button onclick="loadByDate()">Load</button>
+    <div id="date-result"></div>
+  </div>
+
+  <div class="section">
+    <h2>Recent 10 APODs</h2>
+    <div id="gallery" class="gallery"></div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
